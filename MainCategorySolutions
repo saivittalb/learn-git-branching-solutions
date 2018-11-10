@@ -29,11 +29,11 @@ git rebase master
 
 git checkout C4
 
-2.2 Relative refs (^)
+2.2 Relative Refs (^)
 
 git checkout C4^
 
-2.3 Relative refs #2 (~)
+2.3 Relative Refs #2 (~)
 
 git branch -f master C6
 git branch -f bugFix C0
@@ -89,7 +89,7 @@ git rebase bugFix side
 git rebase side another
 git rebase another master
 
-5.2 Multiple parents
+5.2 Multiple Parents
 
 git branch bugWork master~^2~
 
