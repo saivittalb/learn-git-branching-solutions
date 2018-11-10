@@ -1,0 +1,91 @@
+1.1 Clone Intro
+
+git clone
+
+1.2 Remote Branches
+
+git commit
+git checkout o/master
+git commit
+
+1.3 Git Fetchin’
+
+git fetch
+
+1.4 Git Pullin’
+
+git pull
+
+1.5 Fakeing Teamwork
+
+git clone
+git fakeTeamwork master 2
+git commit
+git pull
+
+1.6 Git Pushin’
+
+git clone
+git commit
+git commit
+git push
+
+1.7 Diverged History
+
+git clone
+git fakeTeamwork master 1
+git commit 
+git pull —rebase
+git push
+
+2.1 Push Master!
+
+git fetch
+git rebase o/master side1
+git rebase side1 side2
+git rebase side2 side1
+git rebase side3 side2
+git push
+
+2.2 Mering with remotes
+
+git checkout master
+git pull
+git merge side1
+git merge side2
+git merge side3
+git push
+
+2.3 Remoting Tracking
+
+git checkout -b side o/master
+git commit
+git pull —rebase
+git push
+
+2.4 Git push arguments
+
+git push origin master
+git push origin foo
+
+2.5 Git push arguments — Expanded!
+
+git push origin master~1:foo
+git push origin foo:master
+
+2.6 Fetch arguments
+
+git fetch origin master~1:foo
+git fetch origin foo:master
+git checkout foo
+git merge master
+
+2.7 Source of nothing
+
+git push origin :foo
+git fetch origin :bar
+
+2.8 Pull arguments
+
+git pull origin bar:foo
+git pull origin master:side
