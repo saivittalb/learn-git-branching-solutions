@@ -57,6 +57,9 @@ git rebase -i master~4 --aboveAll
 
 git checkout master
 git cherry-pick C4
+=========================
+git rebase -i HEAD~3
+git branch -f master bugFix
 
 4.2 Juggling Commits
 
