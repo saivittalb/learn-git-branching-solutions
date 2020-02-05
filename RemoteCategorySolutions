@@ -43,8 +43,8 @@ git push
 git fetch
 git rebase o/master side1
 git rebase side1 side2
-git rebase side2 side1
-git rebase side3 side2
+git rebase side2 side3
+git rebase side3 master
 git push
 
 2.2 Mering with remotes
@@ -60,7 +60,7 @@ git push
 
 git checkout -b side o/master
 git commit
-git pull —rebase
+git pull --rebase
 git push
 
 2.4 Git push arguments
