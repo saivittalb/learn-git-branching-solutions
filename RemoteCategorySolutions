@@ -37,6 +37,12 @@ git commit
 git pull —rebase
 git push
 
+1.8 Locked branch Master
+
+git reset --hard o/master
+git checkout -b feature C2
+git push origin feature
+
 2.1 Push Master!
 
 git fetch
