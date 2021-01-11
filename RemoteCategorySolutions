@@ -52,7 +52,7 @@ git rebase side2 side3
 git rebase side3 master
 git push
 
-2.2 Mering with remotes
+2.2 Merging with remotes
 
 git checkout master
 git pull
