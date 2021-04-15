@@ -45,12 +45,11 @@ git push origin feature
 
 2.1 Push Master!
 
-git fetch
-git rebase o/master side1
-git rebase side1 side2
-git rebase side2 side3
-git rebase side3 master
-git push
+ git rebase side1 side2
+ git rebase side2 side3
+ git rebase side3 master
+ git pull --rebase
+ git push
 
 2.2 Mering with remotes
 
