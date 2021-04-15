@@ -32,9 +32,9 @@ git push
 1.7 Diverged History
 
 git clone
-git fakeTeamwork master 1
-git commit 
-git pull —rebase
+git fakeTeamwork
+git commit
+git pull --rebase
 git push
 
 1.8 Locked branch Master
