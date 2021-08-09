@@ -5,7 +5,7 @@ git clone
 1.2 Remote Branches
 
 git commit
-git checkout o/master
+git checkout o/main
 git commit
 
 1.3 Git Fetchin’
@@ -41,7 +41,7 @@ git push
 
 git reset --hard o/master
 git checkout -b feature C2
-git push origin feature
+git push
 
 2.1 Push Master!
 
@@ -53,7 +53,7 @@ git push origin feature
 
 2.2 Merging with remotes
 
-git checkout master
+git checkout main
 git pull
 git merge side1
 git merge side2
@@ -62,27 +62,27 @@ git push
 
 2.3 Remoting Tracking
 
-git checkout -b side o/master
+git checkout -b side o/main
 git commit
 git pull --rebase
 git push
 
 2.4 Git push arguments
 
-git push origin master
+git push origin main
 git push origin foo
 
 2.5 Git push arguments — Expanded!
 
-git push origin master~1:foo
-git push origin foo:master
+git push origin main~1:foo
+git push origin foo:main
 
 2.6 Fetch arguments
 
-git fetch origin master~1:foo
-git fetch origin foo:master
+git fetch origin main~1:foo
+git fetch origin foo:main
 git checkout foo
-git merge master
+git merge c6
 
 2.7 Source of nothing
 
@@ -92,4 +92,4 @@ git fetch origin :bar
 2.8 Pull arguments
 
 git pull origin bar:foo
-git pull origin master:side
+git pull origin main:side
