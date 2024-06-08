@@ -12,7 +12,7 @@ git checkout bugFix
 
 git checkout -b bugFix    
 git commit  
-git checkout master
+git checkout main
 git commit
 git merge bugFix
 
@@ -20,10 +20,10 @@ git merge bugFix
 
 git checkout -b bugFix    
 git commit    
-git checkout master    
+git checkout main    
 git commit    
 git checkout bugFix    
-git rebase master
+git rebase main
 
 2.1 Detach yo’ HEAD
 
@@ -51,7 +51,7 @@ git cherry-pick C3 C4 C7
 
 3.2 Interactive Rebase Intro 
 
-git rebase -i master~4 --aboveAll
+git rebase -i main~4 --aboveAll
 //Remove C2, move C5 up
 
 4.1 Grabbing Just 1 Commit
@@ -85,14 +85,14 @@ git commit
 
 5.1 Rebasing over 9000 times
 
-git rebase master bugFix
+git rebase main bugFix
 git rebase bugFix side
 git rebase side another
-git rebase another master
+git rebase another main
 
 5.2 Multiple Parents
 
-git branch bugWork master~^2~
+git branch bugWork main~^2~
 
 5.3 Branch Spaghetti
 
