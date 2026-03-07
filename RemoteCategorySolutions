@@ -16,10 +16,10 @@ git fetch
 
 git pull
 
-1.5 Fakeing Teamwork
+1.5 Faking Teamwork
 
 git clone
-git fakeTeamwork master 2
+git fakeTeamwork main 2
 git commit
 git pull
 
@@ -37,17 +37,17 @@ git commit
 git pull --rebase
 git push
 
-1.8 Locked branch Master
+1.8 Locked branch Main
 
-git reset --hard o/master
+git reset --hard o/main
 git checkout -b feature C2
 git push
 
-2.1 Push Master!
+2.1 Push Main!
 
  git rebase side1 side2
  git rebase side2 side3
- git rebase side3 master
+ git rebase side3 main
  git pull --rebase
  git push
 
